@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(229, 238, 235);
+}
+
+ul.experiencias {
+    margin-left: 200px;
+}
+
+li.experiencia {
+    position: relative;
+}
+
+
+.fecha {
+    position: absolute;
+    top: 0;
+    left: ;
+}
