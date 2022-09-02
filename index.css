@@ -4,6 +4,7 @@
 
 body {
     display: flex;
+    flex-direction: row;
 }
 
 .right-content {
@@ -13,13 +14,25 @@ body {
 }
 
 .left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
     background-color: rgb(55, 66, 82);
     width: 30%;
 
 }
 
-.contact {
-    width: 30vw;
+.contact-element img {
+    width: 24px;
+    margin-right: 4px;
+}
+
+.contact-element {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+
 }
 
 .perfil {
@@ -33,7 +46,9 @@ h1.titulo {
     padding-top: 10px;
 }
 
-
+.left-content h2 {
+    margin-top: 100px;
+}
 
 .experiencias {
     box-sizing: border-box;
