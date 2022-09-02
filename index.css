@@ -1,18 +1,48 @@
-body {
-    background-color: rgb(229, 238, 235);
+* {
+    font-family: 'Lucida Sans';
 }
 
-ul.experiencias {
-    margin-left: 200px;
+body {
+    display: flex;
+}
+
+.right-content {
+    background-color: white;
+    width: 70%;
+
+}
+
+.left-content {
+    background-color: rgb(55, 66, 82);
+    width: 30%;
+
+}
+
+.contact {
+    width: 30vw;
+}
+
+.perfil {
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 10px 50px 10px 30px;
+}
+
+h1.titulo {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+.experiencias {
+    box-sizing: border-box;
 }
 
 li.experiencia {
-    position: relative;
+    box-sizing: border-box;
 }
 
-
-.fecha {
-    position: absolute;
-    top: 0;
-    left: ;
+.educacion {
+    box-sizing: border-box;
 }
