@@ -8,6 +8,8 @@ body {
 }
 
 .right-content {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     width: 70%;
 
@@ -20,20 +22,52 @@ body {
     padding-top: 90px;
     background-color: rgb(55, 66, 82);
     width: 30%;
-
 }
 
-.contact-element img {
-    width: 24px;
-    margin-right: 4px;
+.foto-perfil img {
+    border-radius: 68px;
+    box-shadow: 8px 8px 50px 0px #000;
+    width: 230px;
 }
 
-.contact-element {
+.skillpicture img {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.skillpicture h2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact img {
+    width: 28px;
+    margin-right: 20px;
+}
+
+.skill-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.email-element,
+.phone-element,
+.ubication,
+.link {
     display: flex;
     flex-direction: row;
     color: #ffffff;
-
 }
+
+
+.skills img {
+    width: 20px;
+    margin-left: 20px;
+}
+
 
 .perfil {
     box-sizing: border-box;
@@ -46,18 +80,40 @@ h1.titulo {
     padding-top: 10px;
 }
 
-.left-content h2 {
-    margin-top: 100px;
+.experiences {
+    display: flex;
+    flex-direction: column;
 }
 
-.experiencias {
-    box-sizing: border-box;
+.experiences h2 {
+    align-self: center;
 }
 
-li.experiencia {
-    box-sizing: border-box;
+.experience-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
 }
 
-.educacion {
-    box-sizing: border-box;
+.fecha {
+    width: 20%;
+    padding: 0px 5px 0px 20px;
+
+}
+
+.description {
+    border-left: 1px solid #000;
+    flex: 1;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+
+.point {
+    background-color: #000;
+    position: absolute;
+    margin-left: -57.5px;
+    margin-top: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
 }
