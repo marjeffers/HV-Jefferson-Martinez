@@ -9,6 +9,7 @@ body {
 
 .right-content {
     display: flex;
+    padding: 0px 60px;
     flex-direction: column;
     background-color: white;
     width: 70%;
@@ -22,6 +23,15 @@ body {
     padding-top: 90px;
     background-color: rgb(55, 66, 82);
     width: 30%;
+}
+
+.contact {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.skills {
+    padding-top: 90px;
 }
 
 .foto-perfil img {
@@ -57,6 +67,7 @@ body {
 .phone-element,
 .ubication,
 .link {
+    padding-top: 8px;
     display: flex;
     flex-direction: row;
     color: #ffffff;
@@ -72,7 +83,7 @@ body {
 .perfil {
     box-sizing: border-box;
     text-align: justify;
-    padding: 10px 50px 10px 30px;
+    padding: 10px 0px;
 }
 
 h1.titulo {
@@ -95,14 +106,11 @@ h1.titulo {
     align-self: center;
 }
 
-.fecha {
-    width: 20%;
-    padding: 0px 5px 0px 20px;
-
-}
 
 .description {
     border-left: 1px solid #000;
+    padding-bottom: 14px;
+    text-align: justify;
     flex: 1;
     padding-left: 50px;
     margin-left: 20px;
@@ -112,8 +120,29 @@ h1.titulo {
     background-color: #000;
     position: absolute;
     margin-left: -57.5px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 15px;
     height: 15px;
     border-radius: 15px;
+}
+
+.education-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.date {
+    padding: 0px 5px 0px 0px;
+    width: 30%;
+
+}
+
+.education {
+    margin-top: 50px;
+
+}
+
+.education h2 {
+    text-align: center;
 }
